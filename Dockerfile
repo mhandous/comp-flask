@@ -21,7 +21,7 @@ RUN mkdir -p /home/dev
 WORKDIR /home/dev
 # RUN git clone https://github.com/astondevops/web_server_flask.git
 # la commande 5000 publ le port d'ecoute du serveur
-EXPOSE 5000
+# EXPOSE 5000
 
 WORKDIR /home/dev/web_server_flask
 ENTRYPOINT ["python3","hello.py","runserver"]
